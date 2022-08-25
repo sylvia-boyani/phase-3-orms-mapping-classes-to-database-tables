@@ -1,5 +1,5 @@
-require 'bundler'
-Bundler.require
+require 'bundler/setup'
+Bundler.require(:default, :development)
 
 require_relative '../lib/song'
 
